@@ -1,3 +1,65 @@
+/* ===== Navigation Bar ===== */
+.navbar {
+    background-color: #1e293b;
+    padding: 15px 0;
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-title {
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: #93c5fd;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+/* ===== General Page Styling ===== */
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+    color: #333;
+}
+
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #1e293b;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #e5e7eb;
+    margin-top: 40px;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     background: #f5f7fa;
